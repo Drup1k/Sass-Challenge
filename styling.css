@@ -6,7 +6,7 @@
   grid-template-areas: "header header header" "left main right" "footer footer footer";
   grid-template-rows: 1fr 3fr 1fr;
   grid-template-columns: 1fr 2fr 1fr;
-  grid-gap: 10px;
+  grid-gap: 20px;
 }
 
 .cell-1 {
@@ -17,12 +17,15 @@
 .cell-2 {
   background: orangered;
   grid-area: left;
+  box-shadow: ;
 }
 
 .cell-3 {
   background: limegreen;
   grid-area: main;
   text-align: center;
+  border:1px solid black;
+  box-shadow: 5px 5px blue, 10px 10px red, 15px 15px black;
 }
 
 .cell-4 {
