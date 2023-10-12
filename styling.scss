@@ -19,14 +19,11 @@ $textcolor: black;
     background: $skycolor;
     grid-area: header;
  }
- .cell-2 {
-    background: orangered;
-    grid-area: left;
- }
+
  .cell-3 {
     background: limegreen;
     grid-area: main;
-    text-align: center;
+    @include centerAll ();
  }
  .cell-4 {
     background: gold;
