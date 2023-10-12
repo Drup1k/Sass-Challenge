@@ -22,7 +22,7 @@
 .cell-3 {
   background: limegreen;
   grid-area: main;
-  
+  text-align: center;
 }
 
 .cell-4 {
